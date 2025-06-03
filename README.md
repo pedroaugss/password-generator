@@ -11,4 +11,4 @@ Projeto Full Stack simples e funcional que gera senhas seguras de forma aleatór
 
 
 
-![Visual do App](client/public/apiscreenshot.png)
+![Visual do App](screenshot.png)
