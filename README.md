@@ -8,3 +8,7 @@ Projeto Full Stack simples e funcional que gera senhas seguras de forma aleatór
 - Interface amigável com layout responsivo.
 - Armazenamento da senha gerada no back-end (em memória).
 - Comunicação entre front-end e back-end via API (Axios).
+
+
+
+![Visual do App](client/public/apiscreenshot.png)
