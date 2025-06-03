@@ -1,38 +1,83 @@
-.App {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+.container {
+  background-color: rgba(30, 30, 30, 0.85);
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: #5a67d8;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(90, 103, 216, 0.4);
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #434190;
+  box-shadow: 0 8px 20px rgba(67, 65, 144, 0.6);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.password-box {
+  background-color: #2d2d2d;
+  margin-top: 2rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  user-select: all;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.password-box:hover {
+  background-color: #444;
+}
+
+
+.password-box p:first-child {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #bbb;
 }
